@@ -1,18 +1,10 @@
-
 import './App.css';
-import Banner from './BaiTapThucHanhLayout/Body/Banner/Banner';
-import Header from './BaiTapThucHanhLayout/Header/Header';
-import Item from './BaiTapThucHanhLayout/Body/Item/Item';
-import Footer from './BaiTapThucHanhLayout/Footer/Footer';
-
+import BaiTapThucHanhLayout from './Components/BaiTapThucHanhLayout/BaiTapThucHanhLayout';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Item/>
-      <Footer/>
+        <BaiTapThucHanhLayout/>
     </div>
   );
 }
